@@ -1,0 +1,18 @@
+* Goals
+** Contain only what is required to build more.
+** Have a completely automated build process.
+* Components
+** Package Manager (apk)
+*** Purpose
+**** Provides access to a collection of software packages.
+***** Simplifies building things on top of this.
+***** Reduces maintenance burden by leveraging existing work.
+***** Improves familiarity through familiar packages.
+*** Why apk?
+**** Simple to install.
+**** Readily available with no custom builds required.
+**** Creating packages is simple.
+***** Simple format (tgz with signatures)
+**** Distributing packages is simple.
+***** Only requires an index file and an HTTP server.
+***** Everything required to distribute packages is available in busybox.
